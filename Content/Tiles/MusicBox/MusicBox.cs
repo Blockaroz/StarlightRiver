@@ -25,7 +25,7 @@ namespace StarlightRiver.Content.Tiles.MusicBox
 			LoadMusicBox("VitricBoss2", "Music Box (Ceiros P2)", "Sounds/Music/VitricBoss2");
 			LoadMusicBox("VitricPassive", "Music Box (Vitric Desert)", "Sounds/Music/GlassPassive");
 			LoadMusicBox("VitricTemple", "Music Box (Vitric Temple)", "Sounds/Music/GlassTemple");
-			LoadMusicBox("Miniboss", "Music Box (Miniboss)", "Sounds/Music/Miniboss");
+			//LoadMusicBox("Miniboss", "Music Box (Miniboss)", "Sounds/Music/Miniboss");
 		}
 
 		private void LoadMusicBox(string name, string displayName, string path)
