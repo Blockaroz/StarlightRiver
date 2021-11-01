@@ -17,7 +17,8 @@ namespace StarlightRiver.Content.CustomHooks
 
         public override void Load()
         {
-            IL.Terraria.UI.ItemSlot.LeftClick_ItemArray_int_int += PlayCustomSound;
+			if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+				IL.Terraria.UI.ItemSlot.LeftClick_ItemArray_int_int += PlayCustomSound;
         }
 
 		private void PlayCustomSound(ILContext il)
