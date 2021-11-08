@@ -66,11 +66,6 @@ namespace StarlightRiver.Content.CustomHooks
                 }
             }
 
-            var mp = self.GetModPlayer<GravityPlayer>();
-
-            if (mp.controller != null && mp.controller.npc.active)
-                self.velocity.Y = 0;
-
             orig(self);
         }
 
